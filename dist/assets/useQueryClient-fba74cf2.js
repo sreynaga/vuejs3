@@ -1,0 +1,1 @@
+import{C as o,D as i,E as u}from"./index-556c5bdc.js";function c(r=""){var n;if(!((n=o())==null?void 0:n.proxy))throw new Error("vue-query hooks can only be used inside setup() function.");const t=u(r),e=i(t);if(!e)throw new Error("No 'queryClient' found in Vue context, use 'VueQueryPlugin' to properly initialize the library.");return e}export{c as u};
